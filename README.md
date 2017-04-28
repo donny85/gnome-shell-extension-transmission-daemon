@@ -1,14 +1,14 @@
-# gnome-shell-extension-transmission-daemon
+# Transmission Daemon Indicator (Gnome Shell extension)
 
 Monitor a remote transmission-daemon or transmission GTK app using its RPC interface.
 
-This extension supports Gnome Shell DE, from version 3.4 up to 3.20
+This extension supports Gnome Shell DE, from version 3.4 up to 3.24
 
-![Screenshot](https://github.com/eonpatapon/gnome-shell-extension-transmission-daemon/raw/master/screenshot.png)
+![Screenshot](https://github.com/donny85/gnome-shell-extension-transmission-daemon/raw/master/screenshots/screenshot.png)
 
-![Add torrents](https://github.com/eonpatapon/gnome-shell-extension-transmission-daemon/raw/master/screenshot-add.png)
+![Add torrents](https://github.com/donny85/gnome-shell-extension-transmission-daemon/raw/master/screenshots/screenshot-add.png)
 
-![Filter torrents by state](https://github.com/eonpatapon/gnome-shell-extension-transmission-daemon/raw/master/screenshot-filter.png)
+![Filter torrents by state](https://github.com/donny85/gnome-shell-extension-transmission-daemon/raw/master/screenshots/screenshot-filter.png)
 
 ## Installation
 
@@ -19,11 +19,13 @@ https://extensions.gnome.org/extension/365/transmission-daemon-indicator/
 ### Manual installation
 
     git clone git://github.com/eonpatapon/gnome-shell-extension-transmission-daemon.git
-    cd gnome-shell-extension-transmission-daemon
     # For gnome-shell < 3.10 use the gnome-shell-3.8 branch
     # For gnome-shell < 3.16 use the gnome-shell-3.14 branch
     # For gnome-shell < 3.30 use the gnome-shell-3.18 branch
-    cp -r transmission-daemon@patapon.info ~/.local/share/gnome-shell/extensions
+    
+    cd gnome-shell-extension-transmission-daemon
+
+    make install
 
 Restart the shell and then enable the extension.
 
