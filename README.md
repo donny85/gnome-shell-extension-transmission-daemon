@@ -20,7 +20,7 @@ https://extensions.gnome.org/extension/365/transmission-daemon-indicator/
 
 ### Manual installation
 
-    git clone git://github.com/eonpatapon/gnome-shell-extension-transmission-daemon.git
+    git clone git://github.com/donny85/gnome-shell-extension-transmission-daemon.git
     # For gnome-shell < 3.10 use the gnome-shell-3.8 branch
     # For gnome-shell < 3.16 use the gnome-shell-3.14 branch
     # For gnome-shell < 3.30 use the gnome-shell-3.18 branch
