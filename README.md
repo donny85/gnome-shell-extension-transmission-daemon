@@ -10,6 +10,8 @@ This extension supports Gnome Shell DE, from version 3.4 up to 3.24
 
 ![Filter torrents by state](https://github.com/donny85/gnome-shell-extension-transmission-daemon/raw/master/screenshots/screenshot-filter.png)
 
+![Extension preferences](https://github.com/donny85/gnome-shell-extension-transmission-daemon/raw/master/screenshots/preferences.png)
+
 ## Installation
 
 ### Via extensions.gnome.org
